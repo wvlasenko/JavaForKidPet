@@ -7,6 +7,7 @@ public class FishMaster {
         myFish.dive(2);
         myFish.dive(10);
         myFish.dive(97);
+        myFish.eat();
         myFish.sleep();
         fishReaction= myFish.say("Hello");
         System.out.println(fishReaction);
